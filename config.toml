@@ -1,0 +1,41 @@
+baseURL = "https://theriverl2.github.io"
+title = "The River L2"
+# for smart copyright line, leave this blank and check [params.copyright]
+copyright = ""
+
+theme = ["ananke"]
+
+disqusShortname = ""
+googleAnalytics = ""
+
+Paginate = 3
+preserveTaxonomyNames = true
+
+enableRobotsTXT = true # generate robots.txt
+
+# Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
+pygmentsCodefences = true
+
+enableEmoji = true
+[params]
+  text_color = ""
+  author = "Murasame"
+  favicon = ""
+  site_logo = ""
+  description = "An Algorand Layer-2 network"
+  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  recent_posts_number = 3
+
+[[params.ananke_socials]]
+name = "Github"
+url = "https://github.com/TheRiverL2"
+
+[[params.ananke_socials]]
+name = "blog"
+url = "/blog"
+
+
+
+[markup.goldmark.renderer]
+unsafe= true
